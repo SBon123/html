@@ -1,0 +1,5 @@
+#!/bin/bash
+yum -y install httpd
+systemctl start httpd
+touch /var/www/html/index.html
+echo "<h1>Hello, welcome to my website </h1>"
